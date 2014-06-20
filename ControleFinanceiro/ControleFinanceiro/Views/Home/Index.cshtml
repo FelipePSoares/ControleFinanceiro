@@ -1,0 +1,53 @@
+﻿@model ControleFinanceiro.Models.HomeModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{  var Opcoes = Enum.GetValues(typeof(Entities.TipoOpcao)).OfType<Entities.TipoOpcao>().Select(sa =>
+    new SelectListItem
+        {
+            Text = sa.ToString(),
+            Value = ((int)sa).ToString()
+        }).ToList();
+
+    var Importancia = Enum.GetValues(typeof(Entities.TipoImportancia)).OfType<Entities.TipoImportancia>().Select(sa =>
+    new SelectListItem
+        {
+            Text = sa.ToString(),
+            Value = ((int)sa).ToString()
+        }).ToList();
+}
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+
+    <fieldset>
+        <legend>Cadastrar Transação</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.opcao)
+                @Html.DropDownListFor(m => m.opcao, Opcoes, new { @id = "Opcao" })
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Descricao)
+                @Html.EditorFor(m => m.Descricao, new { @id = "Descricao" })
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Valor)
+                @Html.EditorFor(m => m.Valor, new { @id = "Valor" })
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Data)
+                @Html.EditorFor(m => m.Data, new { @id = "Data" })
+            </li>
+            <li>
+                @Html.LabelFor(m => m.importancia)
+                @Html.DropDownListFor(m => m.importancia, Importancia, new { @id = "Importancia" })
+            </li>
+        </ol>
+        <input type="submit" value="Cadastrar" id="Cadastrar" />
+    </fieldset>
+}

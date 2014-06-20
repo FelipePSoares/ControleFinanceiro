@@ -1,0 +1,18 @@
+﻿@if (Request.IsAuthenticated)
+{
+    <li>
+        <text>
+            Bem vindo(a), @Request.LogonUserIdentity
+            @using (Html.BeginForm("Deslogar", "Account", FormMethod.Post, new { id = "logoutForm" }))
+            {
+                @Html.AntiForgeryToken()
+                <a href="javascript:document.getElementById('logoutForm').submit()">Log off</a>
+            }
+        </text>
+    </li>
+}
+else
+{
+    <li>@Html.ActionLink("Registrar-se", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+    <li>@Html.ActionLink("Logar", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+}
