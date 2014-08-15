@@ -392,6 +392,17 @@
             <param name="storeItemCollection"> Item Collection. </param>
             <returns> Bool indicating whether database exists or not. </returns>
         </member>
+        <member name="M:System.Data.Entity.SqlServerCompact.SqlCeProviderServices.DbDatabaseExists(System.Data.Common.DbConnection,System.Nullable{System.Int32},System.Lazy{System.Data.Entity.Core.Metadata.Edm.StoreItemCollection})">
+            <summary>
+            API for checkin whether database exists or not.
+            This will internally only check whether the file that the connection points to exists or not.
+            Note: In case of SQLCE, timeout and storeItemCollection parameters are ignored.
+            </summary>
+            <param name="connection"> Connection </param>
+            <param name="timeOut"> Timeout for internal commands. </param>
+            <param name="storeItemCollection"> Item Collection. </param>
+            <returns> Bool indicating whether database exists or not. </returns>
+        </member>
         <member name="M:System.Data.Entity.SqlServerCompact.SqlCeProviderServices.DbDeleteDatabase(System.Data.Common.DbConnection,System.Nullable{System.Int32},System.Data.Entity.Core.Metadata.Edm.StoreItemCollection)">
             <summary>
             API for deleting the database.

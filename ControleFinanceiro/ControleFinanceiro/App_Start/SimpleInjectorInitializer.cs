@@ -3,7 +3,7 @@
 namespace ControleFinanceiro.App_Start
 {
     using System.Reflection;
-
+    using SimpleInjector.Extensions;
     using SimpleInjector;
     using SimpleInjector.Integration.Wcf;
     using Repository;
@@ -42,8 +42,7 @@ namespace ControleFinanceiro.App_Start
         private static void InitializeContainer(Container container)
         {
             container.Register<IDataContext, DataContext>();
-            container.Register<ITransacaoRepository, TransacaoRepository>();
-            container.Register<IGenericRepository, GenericRepository>();
+            container.RegisterOpenGeneric(typeof(IGenericRepository<>),typeof(GenericRepository<>));
         }
     }
 }

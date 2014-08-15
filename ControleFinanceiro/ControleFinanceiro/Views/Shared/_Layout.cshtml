@@ -20,8 +20,8 @@
     </div>
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-            <li>@Html.ActionLink("Últimas Entradas", "Transacao", "Entrada", new { @id = "UltimasEntradas" })</li>
-            <li>@Html.ActionLink("Últimas Saídas", "Transacao", "Saida", new { @id = "UltimasSaidas" })</li>
+            <li>@Html.ActionLink("Últimas Entradas", "Entrada", "Transacao", null, new { @id = "UltimasEntradas" })</li>
+            <li>@Html.ActionLink("Últimas Saídas", "Saida", "Transacao", null, new { @id = "UltimasSaidas" })</li>
             <li><a>|</a></li>
             @Html.Partial("_LoginPartial")
         </ul>

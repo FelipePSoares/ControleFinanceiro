@@ -7,12 +7,12 @@ namespace Repository
 {
     public class DataContext : DbContext, IDisposable, IDataContext
     {
-        IQueryable<Transacao> IDataContext.Transacoes
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            get { return this.Set<Transacao>(); }
+            modelBuilder.Entity<Transacao>().ToTable("Transacao");
         }
 
-        public DbSet DbSet<T>() where T : class
+        public DbSet<T> DbSet<T>() where T : class
         {
             return Set<T>();
         }

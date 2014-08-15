@@ -7,8 +7,6 @@ namespace Repository
 {
     public interface IDataContext : IDisposable
     {
-        IQueryable<Transacao> Transacoes { get; }
-
-        DbSet DbSet<T>() where T : class;
+        DbSet<T> DbSet<T>() where T : class;
     }
 }

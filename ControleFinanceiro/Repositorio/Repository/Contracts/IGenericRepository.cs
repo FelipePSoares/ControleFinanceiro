@@ -1,19 +1,22 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 
 namespace Repository.Repository.Contracts
 {
-    public interface IGenericRepository
+    public interface IGenericRepository<TEntity> where TEntity : class
     {
-        IEnumerable<TEntity> GetAll<TEntity>() where TEntity : class;
+        IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate, String[] include);
 
-        TEntity GetByID<TEntity>(object id) where TEntity : class;
+        TEntity GetByID(object id);
 
-        void add<TEntity>(TEntity model) where TEntity : class;
+        void add(TEntity model);
 
-        void Update<TEntity>(TEntity model) where TEntity : class;
+        void Update(TEntity model);
 
-        void Delete<TEntity>(object id) where TEntity : class;
+        void Delete(object id);
 
-        void Delete<TEntity>(TEntity model) where TEntity : class;
+        void Delete(TEntity model);
     }
 }

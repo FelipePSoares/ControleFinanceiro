@@ -1,38 +1,41 @@
 ﻿using Repository.Repository.Contracts;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 
 namespace Repository.Repository
 {
-    public class GenericRepository : DataContext, IGenericRepository 
+    public class GenericRepository<TEntity> : DataContext, IGenericRepository<TEntity> where TEntity : class
     {
-        public virtual IEnumerable<TEntity> GetAll<TEntity>() where TEntity : class
+        public IQueryable<TEntity> Find(Expression<Func<TEntity, bool>> predicate, String[] include)
         {
-            throw new NotImplementedException("TODO");
+            //TODO: Adicionar pesquisa com include
+            return this.DbSet<TEntity>().Where(predicate);
         }
 
-        public virtual TEntity GetByID<TEntity>(object id) where TEntity : class
+        public virtual TEntity GetByID(object id)
         {
-            throw new NotImplementedException("TODO");
+            return this.DbSet<TEntity>().Find(id);
         }
 
-        public void add<TEntity>(TEntity model) where TEntity : class
+        public void add(TEntity model)
         {
             this.DbSet<TEntity>().Add(model);
         }
 
-        public void Update<TEntity>(TEntity model) where TEntity : class
+        public void Update(TEntity model)
         {
             this.DbSet<TEntity>().Attach(model);
         }
 
-        public void Delete<TEntity>(object id) where TEntity : class
+        public void Delete(object id)
         {
             var entityToDelete = this.DbSet<TEntity>().Find(id);
             Delete(entityToDelete);
         }
 
-        public void Delete<TEntity>(TEntity model) where TEntity : class
+        public void Delete(TEntity model)
         {
             this.DbSet<TEntity>().Remove(model);
         }

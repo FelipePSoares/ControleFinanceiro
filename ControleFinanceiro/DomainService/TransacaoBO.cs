@@ -4,6 +4,7 @@ using Repository.Repository.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,9 +12,9 @@ namespace DomainService
 {
     public class TransacaoBO : ITransacaoBO
     {
-        public ITransacaoRepository repository { get; set; }
+        public IGenericRepository<Transacao> repository { get; set; }
 
-        public TransacaoBO(ITransacaoRepository repository)
+        public TransacaoBO(IGenericRepository<Transacao> repository)
         {
             this.repository = repository;
         }
@@ -22,7 +23,17 @@ namespace DomainService
         {
             EPossivelAdicionar(transacao);
 
-            repository.add<Transacao>(transacao);
+            repository.add(transacao);
+        }
+
+        public IQueryable<Transacao> Search(Expression<Func<Transacao, bool>> predicate)
+        {
+            return this.Search(predicate, null);
+        }
+
+        public IQueryable<Transacao> Search(Expression<Func<Transacao, bool>> predicate, String[] include)
+        {
+            return repository.Find(predicate, include);
         }
 
         #region [ Validação ]

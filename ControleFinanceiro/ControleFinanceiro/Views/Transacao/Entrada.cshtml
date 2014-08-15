@@ -1,0 +1,13 @@
+﻿@model List<ControleFinanceiro.Models.EntradaModel>
+
+@{
+    ViewBag.Title = "Entrada";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<li>
+    @foreach (var entrada in Model)
+    {
+        <ul>@entrada.Descricao - @entrada.Valor</ul>
+    }
+</li>

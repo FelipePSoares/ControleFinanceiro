@@ -20,7 +20,7 @@
         }).ToList();
 }
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("CadastrarTransacao", "Transacao", FormMethod.Post))
 {
     @Html.ValidationSummary()
 
@@ -28,8 +28,8 @@
         <legend>Cadastrar Transação</legend>
         <ol>
             <li>
-                @Html.LabelFor(m => m.opcao)
-                @Html.DropDownListFor(m => m.opcao, Opcoes, new { @id = "Opcao" })
+                @Html.LabelFor(m => m.Opcao)
+                @Html.DropDownListFor(m => m.Opcao, Opcoes, new { @id = "Opcao" })
             </li>
             <li>
                 @Html.LabelFor(m => m.Descricao)
@@ -44,8 +44,8 @@
                 @Html.EditorFor(m => m.Data, new { @id = "Data" })
             </li>
             <li>
-                @Html.LabelFor(m => m.importancia)
-                @Html.DropDownListFor(m => m.importancia, Importancia, new { @id = "Importancia" })
+                @Html.LabelFor(m => m.Importancia)
+                @Html.DropDownListFor(m => m.Importancia, Importancia, new { @id = "Importancia" })
             </li>
         </ol>
         <input type="submit" value="Cadastrar" id="Cadastrar" />

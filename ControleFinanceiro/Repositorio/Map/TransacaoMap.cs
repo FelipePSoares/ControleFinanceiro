@@ -16,7 +16,7 @@ namespace Repositorio.Map
             this.HasKey(t => t.Id);
 
             // Properties
-            this.Property(t => t.Opcao)
+            this.Property(t => (Int32)t.Opcao)
                 .IsRequired();
 
             this.Property(t => t.Descricao)
@@ -28,7 +28,7 @@ namespace Repositorio.Map
             this.Property(t => t.Data)
                 .IsRequired();
 
-            this.Property(t => t.Importancia)
+            this.Property(t => (Int32)t.Importancia)
                 .IsRequired();
 
             this.Property(t => t.DeduzDoImpostoDeRenda);

@@ -3,3 +3,7 @@ C:\Users\Felipe Soares\documents\visual studio 2013\Projects\ControleFinanceiro\
 C:\Users\Felipe Soares\documents\visual studio 2013\Projects\ControleFinanceiro\Entities\obj\Debug\Entities.dll
 C:\Users\Felipe Soares\documents\visual studio 2013\Projects\ControleFinanceiro\Entities\obj\Debug\Entities.pdb
 C:\Users\Felipe Soares\documents\visual studio 2013\Projects\ControleFinanceiro\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Entities\bin\Debug\Entities.dll
+C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Entities\bin\Debug\Entities.pdb
+C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Entities\obj\Debug\Entities.dll
+C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Entities\obj\Debug\Entities.pdb
