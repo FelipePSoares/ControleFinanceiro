@@ -18,5 +18,7 @@ namespace Repository.Repository.Contracts
         void Delete(object id);
 
         void Delete(TEntity model);
+
+        Int64 Commit();
     }
 }

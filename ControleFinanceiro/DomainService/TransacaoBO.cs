@@ -12,7 +12,7 @@ namespace DomainService
 {
     public class TransacaoBO : ITransacaoBO
     {
-        public IGenericRepository<Transacao> repository { get; set; }
+        private IGenericRepository<Transacao> repository { get; set; }
 
         public TransacaoBO(IGenericRepository<Transacao> repository)
         {

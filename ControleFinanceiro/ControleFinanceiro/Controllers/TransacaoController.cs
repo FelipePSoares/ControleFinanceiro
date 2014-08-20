@@ -1,7 +1,9 @@
 ﻿using ControleFinanceiro.App_Start;
 using ControleFinanceiro.Models;
 using DomainService;
+using DomainService.Contracts;
 using Entities;
+using Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +14,7 @@ namespace ControleFinanceiro.Controllers
 {
     public class TransacaoController : Controller
     {
-        public TransacaoBO BO { get; set; }
+        public ITransacaoBO BO { get; set; }
 
         public TransacaoController()
         {
@@ -37,8 +39,8 @@ namespace ControleFinanceiro.Controllers
         {
             var transacao = home.ConverterParaTransacao();
 
-            BO.repository.add(transacao);
-
+            BO.Add(transacao);
+            
             return RedirectToAction("Index", "Home");
         }
     }

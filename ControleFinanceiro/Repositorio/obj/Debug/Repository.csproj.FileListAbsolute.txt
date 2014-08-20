@@ -28,3 +28,15 @@ C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Re
 C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\obj\Debug\Repositorio.dll
 C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\obj\Debug\Repositorio.pdb
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\Entities.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\Entities.pdb
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\obj\Debug\Repositorio.pdb

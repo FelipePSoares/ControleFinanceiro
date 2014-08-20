@@ -20,3 +20,13 @@ C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Do
 C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\obj\Debug\DomainService.csprojResolveAssemblyReference.cache
 C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\obj\Debug\DomainService.dll
 C:\Users\Felipe Soares\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\obj\Debug\DomainService.pdb
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\bin\Debug\DomainService.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\bin\Debug\DomainService.pdb
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\bin\Debug\Entities.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\bin\Debug\Repositorio.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\bin\Debug\EntityFramework.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\bin\Debug\Entities.pdb
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\bin\Debug\Repositorio.pdb
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\obj\Debug\DomainService.csprojResolveAssemblyReference.cache
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\obj\Debug\DomainService.dll
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\DomainService\obj\Debug\DomainService.pdb
