@@ -11,3 +11,4 @@ C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Enti
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Entities\bin\Debug\Entities.pdb
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Entities\obj\Debug\Entities.dll
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Entities\obj\Debug\Entities.pdb
+C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache

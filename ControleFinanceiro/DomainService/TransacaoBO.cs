@@ -21,9 +21,11 @@ namespace DomainService
 
         public void Add(Transacao transacao)
         {
-            EPossivelAdicionar(transacao);
+            //EPossivelAdicionar(transacao);
 
             repository.add(transacao);
+
+            repository.Commit();
         }
 
         public IQueryable<Transacao> Search(Expression<Func<Transacao, bool>> predicate)

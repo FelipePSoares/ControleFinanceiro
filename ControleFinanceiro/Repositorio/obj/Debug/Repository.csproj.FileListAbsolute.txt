@@ -35,7 +35,6 @@ C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repo
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\EntityFramework.SqlServerCompact.dll
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\System.Data.SqlServerCe.dll
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\Entities.pdb
-C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\EntityFramework.xml
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\bin\Debug\EntityFramework.SqlServerCompact.xml
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\obj\Debug\Repository.csprojResolveAssemblyReference.cache
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Repositorio\obj\Debug\Repositorio.dll

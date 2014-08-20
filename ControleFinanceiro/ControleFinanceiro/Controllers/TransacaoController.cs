@@ -23,16 +23,18 @@ namespace ControleFinanceiro.Controllers
 
         public ActionResult Entrada()
         {
-            var Entradas = BO.Search(t => true/*t => t.Opcao == TipoOpcao.Entrada*/).OrderBy(t => t.Data);
+            var transacoes = BO.Search(t => t.Opcao == TipoOpcao.Entrada).OrderBy(t => t.Data);
+            var entradas = new EntradaModel().ConverterParaEntrada(transacoes.ToList());
 
-            var result = Entradas.ToList();
-
-            return View(result);
+            return View(entradas);
         }
 
         public ActionResult Saida()
         {
-            return View();
+            var transacoes = BO.Search(t => t.Opcao == TipoOpcao.Saída).OrderBy(t => t.Data);
+            var saidas = new SaidaModel().ConverterParaSaida(transacoes.ToList());
+
+            return View(saidas);
         }
 
         public ActionResult CadastrarTransacao(HomeModel home)
