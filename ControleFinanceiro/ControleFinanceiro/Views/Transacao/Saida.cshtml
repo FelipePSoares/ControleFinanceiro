@@ -1,0 +1,13 @@
+﻿@model List<ControleFinanceiro.Models.SaidaModel>
+
+@{
+    ViewBag.Title = "Saída";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<li>
+    @foreach (var saida in Model)
+    {
+        <ul>@saida.Descricao - @saida.Valor</ul>
+    }
+</li>

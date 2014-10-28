@@ -119,9 +119,6 @@ C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Cont
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\SimpleInjector.Integration.Wcf.dll
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\SimpleInjector.Integration.Web.dll
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\SimpleInjector.Integration.Web.Mvc.dll
-C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Net.Http.Formatting.dll
-C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Http.dll
-C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Http.WebHost.dll
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Mvc.dll
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Optimization.dll
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Providers.dll
@@ -142,9 +139,6 @@ C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\Cont
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\SimpleInjector.Integration.Web.xml
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\SimpleInjector.Integration.Web.Mvc.xml
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\Newtonsoft.Json.xml
-C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Net.Http.Formatting.xml
-C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Http.xml
-C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Http.WebHost.xml
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Mvc.xml
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.Razor.xml
 C:\Users\felipepires\Documents\GitHub\ControleFinanceiro\ControleFinanceiro\ControleFinanceiro\bin\System.Web.WebPages.xml

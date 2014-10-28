@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace ControleFinanceiro.Models
 {
@@ -24,5 +25,8 @@ namespace ControleFinanceiro.Models
 
             return transacao;
         }
+
+        public List<SelectListItem> Opcoes { get; set; }
+        public List<SelectListItem> Importancias { get; set; }
     }
 }
